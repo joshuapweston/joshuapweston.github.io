@@ -4,8 +4,8 @@
 	clear:both;
 }
 header{
-	height:150px;
-	background-color:blue;
+	height:100px;
+	background-color:red;
 
 }
 main{
@@ -25,8 +25,18 @@ footer{
 	height:50px;
 	background-color:orange;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:320px){
 	article{
+		width:65%;
+		float:left;
+	}
+	aside{
+		width:35%;
+		float:right;
+	}
+}
+@media screem and (max-width:768px){
+	article {
 		width:100%;
 		float:none;
 	}
