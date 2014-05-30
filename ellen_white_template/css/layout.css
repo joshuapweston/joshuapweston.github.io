@@ -99,3 +99,32 @@
 	background-position:620px 0
 }
 /* index-6.html */
+
+img{
+	max-width:100%;
+}
+
+#content2 article{
+	width:50%;
+}
+
+#content2 article:first-child{
+	float:left;
+
+}
+#content2 article:last-child{
+	float:right;
+}
+
+@media screen and (max-width:665px){
+	#content2 article:first-child{
+	float:left;
+	width:100%;
+	}
+
+
+	#content2 article:last-child{
+	float:left;
+	width:100%;
+}
+}

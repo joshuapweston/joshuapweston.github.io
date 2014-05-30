@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-8">
+			<article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, modi error dolorum excepturi ad eaque amet molestias consequatur dolore dignissimos deleniti sint perferendis vero at obcaecati itaque ipsum totam officiis?
+		
+			</article>
+		</div>
+	<div class="col-md-4">
+		<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, reiciendis, alias, debitis, quisquam et corporis asperiores ratione eligendi quas aspernatur voluptate excepturi aperiam incidunt accusantium fuga ea tempora ex consequuntur.</aside>
+		</div>
+	</div>	
+	<script>src="http://code.jquery.com/jquery-2.1.1.min.js"</script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>	
+</body>
+</html>

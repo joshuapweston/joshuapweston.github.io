@@ -1,0 +1,71 @@
+header{
+	background-color:blue;
+	
+}
+nav{
+	position:relative;
+	display:inline-block;
+	
+	width:100%;
+}
+nav ul{
+	position:relative;
+
+}
+nav ul li{
+	position:relative;
+	width:25%;
+
+}
+nav ul:second-child li{
+	color:yellow;
+}
+nav ul li{
+
+}
+img{
+	width:320px;
+	height:100px;
+}
+body{
+	width:320px;
+	height:80%;
+	background-color:red;
+	
+}
+article{
+	background-color:green;
+	position:relative;
+	width:50%;
+	margin:0 auto;
+
+}
+article p{
+	position:relative;
+}
+aside{
+	float:right;
+	background-color:orange;
+	width:25%;
+	position:relative;
+}
+#blog{
+	background-color:yellow;
+	float:left;
+	width:25%;
+	position:relative;
+	bottom:216px;
+
+}
+footer{
+
+
+}
+footer h5{
+	background-color:yellow;
+	position:0 auto;
+
+}
+.clear{
+	clear:both;
+}
