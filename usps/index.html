@@ -17,6 +17,10 @@
 				<li>contact us</li>			
 			</ul>
 		</nav>
+		<div id="sizer">
+			<button data-size="bigger">+</button>
+			<button data-size="smaller">-</button>
+		</div>
 	</header>
 		<main>
 			<div id="hero"></div>
@@ -40,5 +44,26 @@
 				
 			</p>
 		</footer>
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				var body = $("body");
+				var x = 100;
+
+				$("#sizer button").on({
+					click: function(e){
+						var $this = $(e.currentTarget);
+						if($this.data("size") == "bigger"){
+	                        x = x + 10;  
+							body.css("font-size", x +"%");
+						}
+						else {
+							x = x - 10;  
+							body.css("font-size", x +"%");
+						}
+					}
+				});
+	        });
+		</script>
 	</body>
 </html>

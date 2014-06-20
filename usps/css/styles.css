@@ -1,5 +1,6 @@
 body{
 	margin: 0; 
+	font-size:100%;
 	
 }
 header{
@@ -13,6 +14,18 @@ header img{
 	background-color:white;
 	padding: 10px;
 	border-radius:5px;
+}
+.earth{
+	height:200px;
+	width:200px;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+#sizer{
+	position:absolute;
+	top:0;
+	right:0;
 }
 header ul{
 	padding:0;
@@ -45,7 +58,7 @@ header nav ul li{
 header nav ul li:hover {
 	font-weight:900;
 	font-size:25px;
-	color:color:rgba(13, 121, 185, 1);
+	color:rgba(13, 121, 185, 1);
 
 }
 
@@ -111,7 +124,7 @@ section article h1{
 
 section article p{
 	font-size:20px;
-	line-heigt: 1.5;
+	line-height: 1.5;
 	margin:16px 0;
 
 }

@@ -1,0 +1,77 @@
+body { 
+	height:100%;
+	width:100%;
+	background-color: #222227;
+	
+	
+}
+header{
+	width: 100%;
+	height:200px;
+	position:relative;
+	background-image:url("../images/earth.gif");
+	background-size:20%;
+	background-image:url("../images/aurora2.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+header h1{
+	text-align: center;
+	margin:0 auto;
+	height:50%;
+	width:75%;
+	position:relative;
+}
+
+
+.navbar-inverse{
+	position:absolute;
+	height:50px;
+	top:110px;
+	width:100%;
+
+}
+header ul{
+	height:50px;
+}
+
+header ul li{
+	display:inline;
+	width:25%;
+	padding:0px;
+	top:450px;
+	border:1px solid;
+	height: 50px;
+	margin:30px;
+	text-align: center;
+	
+
+}
+
+#earth img{
+	height:10%;
+	width:10%;
+	right:0;
+	top:50px;
+	z-index:9999;
+	position:relative;
+	float:right;
+
+}
+		 
+#main{
+	width:100%;
+	height:800px;
+	margin:0;
+	padding:0;
+	top:55px;
+	position:relative;
+	background-image: url("../images/old_world_map_by_hanciong-d46qusd.png");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+
+	
+	
+
+}
